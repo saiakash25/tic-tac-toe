@@ -1,7 +1,7 @@
-const Square=({value})=>{
+const Square=({value,onClick})=>{
     console.log(value)
    
-    return <button type="button" className="square">{value}
+    return <button type="button" className="square" onClick={onClick}>{value} 
     </button>
 
 }
